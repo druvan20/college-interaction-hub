@@ -1,0 +1,14 @@
+{
+  "name": "college-interaction-hub",
+  "version": "1.0.0",
+  "scripts": {
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && python run.py",
+    "start": "npm run start:frontend & npm run start:backend",
+    "test:frontend": "cd frontend && npm test",
+    "test:backend": "cd backend && pytest",
+    "test": "npm run test:frontend && npm run test:backend"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

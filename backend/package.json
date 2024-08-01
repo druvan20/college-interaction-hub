@@ -1,0 +1,11 @@
+{
+    "name": "college-interaction-hub-backend",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "python run.py",
+      "test": "pytest"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+  }
+  
